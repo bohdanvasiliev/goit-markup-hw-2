@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
     background-color: #fff;
+    color: #434455;
 }
 
 a {
@@ -9,9 +10,7 @@ a {
 ul {
     list-style-type: none;
 }
-button {
-    cursor: pointer;     
-}
+
 
 .header {}
 
@@ -21,20 +20,20 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        color: #4d5ae5;
 }
 
 .logo-style {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
+        color: #2e2f42;
 }
 
 .nav-header-item {
@@ -49,7 +48,9 @@ button {
         color: #2e2f42;
 }
 
-.address-list {}
+.address-list {
+    font-style: normal;
+}
 
 .address-item {}
 
@@ -83,7 +84,9 @@ button {
 }
 
 button {
+    font-family: "roboto", sunt-sefit;
     font-weight: 500;
+    cursor: pointer;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
@@ -91,23 +94,22 @@ button {
         background-color: #4d5ae5;
         
 }
-button:hover
+button:hover,
+ button:focus 
  {
    color:  #fff;
 background-color: #404bbf;
-}
-.div-button {
-    text-align: center;
-}
+
+ }
 /* endregion hero */
 /* region advantages */
 
 .advantages {
-  
+  background-color: #FFFFFF;
 }
 
 .title-advan {
-display: none;
+
 }
 
 .advantages-list {}
@@ -165,7 +167,9 @@ display: none;
 }
 /* endregion our team */
 /* regoin portfolio */
-.our-portfolio {}
+.our-portfolio {
+   text-transform: capitalize;
+}
 
 .title-our-portfolio {
     font-weight: 700;
@@ -174,6 +178,7 @@ display: none;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-list {}
@@ -205,7 +210,7 @@ display: none;
    font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
@@ -215,10 +220,10 @@ display: none;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
+        color:#f4f4fd;
 }
 
 .footer-text {
@@ -226,6 +231,6 @@ display: none;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #f4f4fd;
+        color:#4d5ae5;
 }
 /* endregion footer  */
