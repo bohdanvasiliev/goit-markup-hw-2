@@ -86,7 +86,7 @@ ul {
 }
 
 button {
-    font-family: "roboto", sunt-sefit;
+    
     font-weight: 500;
     cursor: pointer;
         font-size: 16px;
@@ -95,6 +95,9 @@ button {
         color: #fff;
         background-color: #4d5ae5;
         
+}
+.hero-button {
+    font-family: "roboto", sunt-sefit;
 }
 button:hover,
  button:focus 
