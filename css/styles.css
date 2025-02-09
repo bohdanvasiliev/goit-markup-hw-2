@@ -97,7 +97,7 @@ button {
         
 }
 .hero-button {
-    font-family: "roboto", sunt-sefit;
+    font-family: inherit;
 }
 button:hover,
  button:focus 
