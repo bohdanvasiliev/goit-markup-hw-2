@@ -47,9 +47,11 @@ ul {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-
-.address-list {
+.header-address {
     font-style: normal;
+}
+.address-list {
+    
 }
 
 .address-item {}
@@ -133,7 +135,9 @@ background-color: #404bbf;
 }
 /* endregion advantages */
 /* region our team */
-.team {}
+.team {
+    background-color: #f4f4fd;;
+}
 
 .team-title {
     font-weight: 700;
@@ -142,11 +146,16 @@ background-color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
-.teat-list {}
+.team-list {
 
-.team-image {}
+}
+
+.team-image {
+    background-color: #fff;
+}
 
 .team-item {
     font-weight: 500;
@@ -155,6 +164,7 @@ background-color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        
 }
 
 .team-text {
